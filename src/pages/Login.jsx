@@ -48,6 +48,12 @@ export default function Login() {
           <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white p-3.5 rounded-xl font-bold shadow-lg shadow-blue-500/30 transition-all hover:-translate-y-0.5">
             Masuk ke Sistem
           </button>
+          <p className="text-center mt-6 text-sm text-slate-600 relative z-10">
+  Belum terdaftar sebagai warga?{' '}
+  <span onClick={() => navigate('/register')} className="text-blue-600 font-bold cursor-pointer hover:underline">
+    Daftar di sini
+  </span>
+</p>
         </form>
       </div>
     </div>
